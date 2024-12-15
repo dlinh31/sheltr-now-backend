@@ -6,4 +6,4 @@ class Config:
     GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
     JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY')
     SQLALCHEMY_DATABASE_URI = os.getenv(
-        'DATABASE_URL', 'mysql+pymysql://myuser:mypassword@localhost:3306/disaster_alert_db')
+        'DATABASE_URL', 'mysql+pymysql://root:newpassword@localhost:3306/disaster_alert_db')
