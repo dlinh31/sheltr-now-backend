@@ -16,7 +16,7 @@ jwt = JWTManager()
 def create_app():
     app = Flask(__name__)
     # CORS(app)
-    CORS(app, resources={r"/api/*": {"origins": "http://localhost:5173"}})
+    CORS(app, resources={r"/api/*": {"origins": "http://sheltrnow-frontend.s3-website.us-east-2.amazonaws.com"}})
 
 
     load_dotenv()
